@@ -1,0 +1,61 @@
+/* Global Styles */
+
+
+:root {
+  --moderate-violet: hsl(263, 55%, 52%);
+  --dark-greyish-blue: hsl(217, 19%, 35%);
+  --blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(0, 0%, 81%);
+  --light-greyish-blue: hsl(210, 46%, 95%);
+
+
+
+  --desktop-large-card-width: 33.75rem;
+  --desktop-card-height: 17.62rem;
+  --desktop-card-width: 15.93rem;
+  --desktop-long-card-height: 38rem;
+
+  --large-header: 29.75rem;
+  --small-header: 11.938rem;
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed',
+    sans-serif;
+  background-color: #ECF2F8;
+}
+
+/* Main Container */
+.main-container {
+  display: grid;
+  gap: 2rem;
+  margin: 4rem auto;
+  max-width: 100%;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .main-container {
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 60.375rem;
+  }
+}
+
+
+
+@media screen and (min-width: 1224px) {
+  .main-container {
+    max-width: 69.375rem;
+  }
+}

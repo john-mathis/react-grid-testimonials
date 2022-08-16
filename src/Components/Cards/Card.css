@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
+/* Card Container */
+.card-container {
+    padding: 1rem;
+    max-width: 20rem;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+
+@media screen and (max-width:360px) {
+    .card-container {
+        max-width: 17rem;
+    }
+}
+
+@media screen and (min-width:360px) {
+    .card-container {
+        padding: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    .card-container {
+        padding: .75rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+
+
+/* First Card */
+
+#one {
+    color: var(--white);
+    background: var(--moderate-violet);
+    background-image: url(..//..//assets/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 2rem;
+    background-size: 7.5rem;
+    color: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+    #one {
+        grid-column: 1/3;
+        max-width: var(--desktop-large-card-width);
+        min-height: var(--desktop-card-height);
+    }
+}
+
+#one img {
+    border: #979797 2px solid;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    #one .header {
+        max-width: var(--large-header);
+    }
+}
+
+
+
+/* Second Card */
+#two {
+    background-color: var(--dark-greyish-blue);
+    color: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+    #two {
+        grid-column: 3/4;
+        max-width: var(--desktop-card-width);
+        min-height: var(--desktop-card-height);
+    }
+}
+
+
+
+/* Third Card */
+#three {
+    background-color: var(--white);
+    color: var(--dark-greyish-blue);
+}
+
+@media screen and (min-width: 1024px) {
+    #three {
+        grid-column: 1/2;
+        max-width: var(--desktop-card-width);
+        min-height: var(--desktop-card-height);
+    }
+}
+
+
+
+/* Fourth Card */
+#four {
+    color: var(--white);
+    background-color: var(--blackish-blue);
+}
+
+@media screen and (min-width: 1024px) {
+    #four {
+        grid-column: 2/4;
+        max-width: var(--desktop-large-card-width);
+        min-height: var(--desktop-card-height);
+
+    }
+}
+
+#four img {
+    border: var(--moderate-violet) 2px solid;
+}
+
+
+
+/* Fifth Card */
+#five {
+    background-color: var(--white);
+    color: var(--dark-greyish-blue);
+}
+
+@media screen and (min-width: 1024px) {
+    #five {
+        grid-column: 4/5;
+        grid-row: 1/-1;
+        max-width: var(--desktop-card-width);
+        min-height: var(--desktop-long-card-height);
+    }
+}
+
+
+
+
+/* Info Container */
+.info-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.avi {
+    max-height: 1.75rem;
+    max-width: 1.75rem;
+    border-radius: 20px;
+}
+
+
+/* Name Container */
+.name-container {
+    margin-left: 1rem;
+}
+
+.name {
+    font-size: .81rem;
+}
+
+.status {
+    font-size: .68rem;
+    opacity: 50%;
+}
+
+
+/* Testimonial Container */
+
+.header {
+    font-size: 1.25rem;
+    /* min-width: 16rem; */
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.review {
+    font-size: .81rem;
+    line-height: 1.125rem;
+    opacity: 70%;
+}
