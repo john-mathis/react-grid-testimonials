@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-grid-testimonials/static/css/main.9c8e76a5.css",
+    "main.js": "/react-grid-testimonials/static/js/main.4eeabe0f.js",
+    "index.html": "/react-grid-testimonials/index.html",
+    "static/media/bg-pattern-quotation.svg": "/react-grid-testimonials/static/media/bg-pattern-quotation.6b460e30439432820da6.svg",
+    "main.9c8e76a5.css.map": "/react-grid-testimonials/static/css/main.9c8e76a5.css.map",
+    "main.4eeabe0f.js.map": "/react-grid-testimonials/static/js/main.4eeabe0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c8e76a5.css",
+    "static/js/main.4eeabe0f.js"
+  ]
+}
